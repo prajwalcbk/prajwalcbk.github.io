@@ -1,0 +1,41 @@
+HTTrack3.49-2+libhtsjava.so.2 launched on Tue, 29 Nov 2022 16:16:38 at https://msrit.edu
+(winhttrack https://msrit.edu -O "/root/websites/msrit" -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:18:14	Error: 	"Not Found" (404) at link https://msrit.edu/img/apple-touch-icon.png (from https://msrit.edu/)
+16:18:14	Error: 	"Not Found" (404) at link https://msrit.edu/img/apple-touch-icon-72x72.png (from https://msrit.edu/)
+16:18:14	Error: 	"Not Found" (404) at link https://msrit.edu/img/apple-touch-icon-114x114.png (from https://msrit.edu/)
+16:18:17	Error: 	"Not Found" (404) at link https://msrit.edu/centuriton.com (from https://msrit.edu/)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/MSRITdata/MSRIT.js (from https://msrit.edu/)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/images/background/menu-arrow.png (from https://msrit.edu/css/superfish.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/css/images/icons/loading.gif (from https://msrit.edu/css/owl.theme.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/fonts/gotham/Gotham-Blacklta_0.otf (from https://msrit.edu/style.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/images/background/bg-pattern.jpg (from https://msrit.edu/style.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/images/background/tab-full-bg.jpg (from https://msrit.edu/style.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/images/background/tab-transparent-bg1.jpg (from https://msrit.edu/style.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/images/background/divider-shadow.png (from https://msrit.edu/style.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/images/icons/1.jpg (from https://msrit.edu/style.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/images/icons/2.jpg (from https://msrit.edu/style.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/images/ramaiah-homepage-research-d.png (from https://msrit.edu/style.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/css/MSRITdata/graphics/cursors_move_html5.cur (from https://msrit.edu/css/modified.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/css/MSRITdata/graphics/cursors_drag_html5.cur (from https://msrit.edu/css/modified.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/css/images/animated-overlay.gif (from https://msrit.edu/css/jquery-ui-1.10.3.custom.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png (from https://msrit.edu/css/jquery-ui-1.10.3.custom.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/css/images/ui-bg_glass_100_fdf5ce_1x400.png (from https://msrit.edu/css/jquery-ui-1.10.3.custom.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/css/images/ui-bg_glass_65_ffffff_1x400.png (from https://msrit.edu/css/jquery-ui-1.10.3.custom.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png (from https://msrit.edu/css/jquery-ui-1.10.3.custom.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/css/images/ui-bg_diagonals-thick_18_b81900_40x40.png (from https://msrit.edu/css/jquery-ui-1.10.3.custom.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/css/images/ui-icons_222222_256x240.png (from https://msrit.edu/css/jquery-ui-1.10.3.custom.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/css/images/ui-icons_ffffff_256x240.png (from https://msrit.edu/css/jquery-ui-1.10.3.custom.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/css/images/ui-icons_ef8c08_256x240.png (from https://msrit.edu/css/jquery-ui-1.10.3.custom.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/css/images/ui-icons_228ef1_256x240.png (from https://msrit.edu/css/jquery-ui-1.10.3.custom.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/css/images/ui-icons_ffd27a_256x240.png (from https://msrit.edu/css/jquery-ui-1.10.3.custom.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/css/images/ui-bg_diagonals-thick_20_666666_40x40.png (from https://msrit.edu/css/jquery-ui-1.10.3.custom.css)
+16:18:34	Error: 	"Not Found" (404) at link https://msrit.edu/css/images/ui-bg_flat_10_000000_40x100.png (from https://msrit.edu/css/jquery-ui-1.10.3.custom.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 57 seconds : 117 links scanned, 86 files written (5159234 bytes overall) [3315543 bytes received at 28337 bytes/sec], 2386374 bytes transferred using HTTP compression in 52 files, ratio 19%, 39.0 requests per connection
+(30 errors, 0 warnings, 0 messages)
