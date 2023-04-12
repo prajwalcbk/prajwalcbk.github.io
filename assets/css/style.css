@@ -33,6 +33,45 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
+
+
+
+
+
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color:  white;
+  border-radius: 10px;
+  /*font-weight: bold;*/
+}
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -87,7 +126,8 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  /*border: 8px solid #2c2f3f;*/
+  border-radius: 30% !important;
 }
 
 #header .profile h1 {
@@ -313,7 +353,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #e0e0e0;;
 }
 
 .section-title {
@@ -445,7 +485,7 @@ section {
 .education .education-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 4px solid #1f5297;
   position: relative;
 }
 
@@ -489,7 +529,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
+  border: 4px solid #1f5297;
 }
 
 /*--------------------------------------------------------------
@@ -506,7 +546,7 @@ section {
 .experience .experience-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 4px solid #1f5297;
   position: relative;
 }
 
@@ -550,8 +590,72 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
+  border: 4px solid #1f5297;
 }
+
+
+
+/*--------------------------------------------------------------
+# project
+--------------------------------------------------------------*/
+.project .project-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+
+.project .project-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 4px solid #1f5297;
+  position: relative;
+}
+
+.project .project-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.project .project-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.project .project-item ul {
+  padding-left: 20px;
+}
+
+.project .project-item ul li {
+  padding-bottom: 10px;
+}
+
+.project .project-item:last-child {
+  padding-bottom: 0;
+}
+
+.project .project-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 4px solid #1f5297;
+}
+
 
 /*--------------------------------------------------------------
 # certificate
@@ -597,11 +701,12 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  border: 16px solid #fff;
 }
 
 .certificate .certificate-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(51, 49, 49, 0.5);
   position: absolute;
   left: 0;
   right: 0;
@@ -610,6 +715,7 @@ section {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
+
 }
 
 .certificate .certificate-wrap .certificate-links {
