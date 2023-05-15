@@ -426,6 +426,52 @@ section {
   padding-bottom: 30px;
 }
 
+.mySlides {
+  display:none;
+  border: 20px solid #fff;
+  }
+
+.w3-center {
+  text-align: center !important;
+}
+.w3-btn, .w3-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.w3-content, .w3-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+  color: #000 !important;
+  background-color: #f1f1f1 !important;
+}
+.w3-red, .w3-hover-red:hover {
+  color: #fff !important;
+  background-color: #f44336 !important;
+}
+
+.w3-section, .w3-code {
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+}
+
+.w3-button:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
+}
+
 .awards-achievements .count-box {
   padding: 30px;
   width: 100%;
