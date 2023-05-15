@@ -300,7 +300,7 @@ function carousel() {
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1}    
   x[slideIndex-1].style.display = "block";  
-  setTimeout(carousel, 3000);
+  setTimeout(carousel, 5000);
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" w3-red", "");
     }
