@@ -353,7 +353,9 @@ section {
 }
 
 .section-bg {
-  background: #e0e0e0;;
+  background: #e0e0e0;
+  padding-left: 3.5%;
+  padding-right: 5%;
 }
 
 .section-title {
