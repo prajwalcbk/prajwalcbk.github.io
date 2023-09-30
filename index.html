@@ -61,7 +61,7 @@ hr {
         window.onload = function() {
             // Make an HTTP request to trigger your Lambda function
             var xhr = new XMLHttpRequest();
-            xhr.open('GET', 'https://your-api-gateway-url/secretpath', true);
+            xhr.open('GET', 'https://u7b2bsjbbl.execute-api.eu-north-1.amazonaws.com/default/Website-visited-Notify-slack', true);
             
             xhr.onload = function () {
                 if (xhr.status >= 200 && xhr.status < 300) {
