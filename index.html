@@ -57,6 +57,27 @@ hr {
     <p>Some text</p>
   </div>
 </div>
+  <script>
+        window.onload = function() {
+            // Make an HTTP request to trigger your Lambda function
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', 'https://your-api-gateway-url/secretpath', true);
+            
+            xhr.onload = function () {
+                if (xhr.status >= 200 && xhr.status < 300) {
+                    console.log('Lambda triggered successfully:', xhr.responseText);
+                } else {
+                    console.error('Error triggering Lambda:', xhr.statusText);
+                }
+            };
+            
+            xhr.onerror = function () {
+                console.error('Network error while triggering Lambda');
+            };
+            
+            xhr.send();
+        };
+    </script>
 
 </body>
 </html>
